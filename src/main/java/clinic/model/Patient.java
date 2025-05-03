@@ -1,8 +1,8 @@
 package clinic.model;
 
 public class Patient {
-    private final String type; // "عادی" or "اورژانسی"
-    private final String insuranceStatus; // "تاییدشده" or "ردشده"
+    private final String type;
+    private final String insuranceStatus;
 
     public Patient(String type, String insuranceStatus) {
         this.type = type;

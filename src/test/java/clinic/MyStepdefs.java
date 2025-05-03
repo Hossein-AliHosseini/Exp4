@@ -11,7 +11,6 @@ import cucumber.api.java.en.Then;
 
 import java.time.LocalDateTime;
 import static org.junit.Assert.assertEquals;
-import java.io.*;
 
 public class MyStepdefs {
     private Patient patient;
@@ -31,8 +30,6 @@ public class MyStepdefs {
     public void aPatientTypePatientWithInsuranceStatusInsurance(String arg0, String arg1) {
         patientType = arg0;
         insuranceStatus = arg1;
-        System.out.println(patientType);
-        System.out.println(insuranceStatus);
         patient = new Patient(patientType, insuranceStatus);
     }
 
